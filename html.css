@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+ /* Thanh Menu*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ededed;
+} 
+
+
+.vertical menu{
+    position: relative;
+    width: 200px;
+    text-align: left;
+
+}
+
+
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+  
+}
+#logo{
+    padding:  5px 0px;
+    
+    
+}
+#logo img{
+    max-width: 70px;
+    height: auto;
+  
+    
+    
+}
+
+
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+
+#main-menu li a{
+    color: black;
+    display: block;
+    padding: 27px 14px;
+    text-decoration: none;
+    
+    
+}
+#main-menu li :hover{
+    color: red;
+    font-weight: bold;
+}
+#main-menu li{
+    position: relative;
+}
+
+#main-menu ul.sub-menu{
+    position:absolute;
+    background-color: gray;
+    padding: 10px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid rgb(12, 11, 11);
+
+}
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+
+
+
+
+.heading{
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0;
+}
+h3.heading{
+        margin: 0;
+        font-size: 22px;
+        background: #d7202c;
+        padding: 10px 20px;
+        color: #fff;
+        min-width: 100%;
+        line-height: 1.;
+        display: inline-block;
+}
+
+.product-item img{
+    width: 100%;
+   
+}
+.product-item .gia{
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+.product-item .gia u{
+    font-weight: bold;
+    color: red;
+}
+.product-item .gia del{
+    font-weight: bold;
+    color: gray;
+}
+.list-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-item {
+    width: 23%;
+    margin-bottom: 20px;
+
+    /* margin: 20px 20px; */
+  
+}
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+.product-item:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    
+    
+}
+.trangchu .product-item{
+    float: left;
+    margin:  20px 20px;
+    width: 22%;
+    
+}
+
+
+.free .new-item{
+    width: 22%;
+    margin: 20px 20px;
+    float: left;
+}
+    
+.free .new-item img{
+    max-width: 100%;
+}
+.new-item:hover{
+    box-shadow: 0 0 5px gray;
+    margin: 20px 20px ;
+    padding: 5px;
+    
+}
+.free .gia{
+    color:  red;
+}
+
+
+
+/*CSS cho footer*/
+footer{
+    clear:both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+footer .footer-item{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer .footer-item h3{
+    margin: 30px 0 10px 30px;
+}
+footer .footer-item p{
+    margin: 10px 0 10px 30px;
+}
+
+.tacgia{
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.tacgia p{
+    padding-top: 10px;
+}
